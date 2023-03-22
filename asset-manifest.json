@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/esq-site/static/css/main.58a98984.css",
-    "main.js": "/esq-site/static/js/main.b41a670a.js",
+    "main.js": "/esq-site/static/js/main.b6fc4a35.js",
     "static/js/787.f152713b.chunk.js": "/esq-site/static/js/787.f152713b.chunk.js",
     "static/media/lawBooks.jpg": "/esq-site/static/media/lawBooks.53a6ede9382d8bea3f4b.jpg",
     "index.html": "/esq-site/index.html",
     "main.58a98984.css.map": "/esq-site/static/css/main.58a98984.css.map",
-    "main.b41a670a.js.map": "/esq-site/static/js/main.b41a670a.js.map",
+    "main.b6fc4a35.js.map": "/esq-site/static/js/main.b6fc4a35.js.map",
     "787.f152713b.chunk.js.map": "/esq-site/static/js/787.f152713b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58a98984.css",
-    "static/js/main.b41a670a.js"
+    "static/js/main.b6fc4a35.js"
   ]
 }
