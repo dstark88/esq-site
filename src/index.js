@@ -16,46 +16,57 @@ import Bankruptcy from "./Pages/Bankruptcy/Bankruptcy";
 import BusinessLaw from "./Pages/BusinessLaw/BusinessLaw";
 import RealEstateLaw from "./Pages/RealEstateLaw/RealEstateLaw";
 import Taxation from "./Pages/Taxation/Taxation";
+import FAQ from "./Pages/FAQ/FAQ";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+
+import { ThemeProvider } from "@material-tailwind/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 export default function App() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Routes>
-        <Route
-          onUpdate={() => window.scrollTo(0, 0)}
-          path=""
-          element={<Layout />}
-        >
-          <Route index path="/esq-site" element={<Home />} />
-          <Route path="/esq-site/attorneys" element={<Attorneys />} />
-          <Route path="/esq-site/attorneys/boulton" element={<Boulton />} />
-          <Route path="/esq-site/attorneys/denny" element={<Denny />} />
-          <Route path="/esq-site/practice-areas" element={<PracticeAreas />} />
-          <Route
-            path="/esq-site/practice-areas/bankruptcy"
-            element={<Bankruptcy />}
-          />
-          <Route
-            path="/esq-site/practice-areas/businessLaw"
-            element={<BusinessLaw />}
-          />
-          <Route
-            path="/esq-site/practice-areas/real-estate-law"
-            element={<RealEstateLaw />}
-          />
-          <Route
-            path="/esq-site/practice-areas/taxation"
-            element={<Taxation />}
-          />
-          <Route path="/esq-site/about-us" element={<AboutUs />} />
-          <Route path="/esq-site/contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <React.StrictMode>
+      <ThemeProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route
+              onUpdate={() => window.scrollTo(0, 0)}
+              path=""
+              element={<Layout />}
+            >
+              <Route index path="/esq-site" element={<Home />} />
+              <Route path="/esq-site/attorneys" element={<Attorneys />} />
+              <Route path="/esq-site/attorneys/boulton" element={<Boulton />} />
+              <Route path="/esq-site/attorneys/denny" element={<Denny />} />
+              <Route
+                path="/esq-site/practice-areas"
+                element={<PracticeAreas />}
+              />
+              <Route
+                path="/esq-site/practice-areas/bankruptcy"
+                element={<Bankruptcy />}
+              />
+              <Route
+                path="/esq-site/practice-areas/businessLaw"
+                element={<BusinessLaw />}
+              />
+              <Route
+                path="/esq-site/practice-areas/real-estate-law"
+                element={<RealEstateLaw />}
+              />
+              <Route
+                path="/esq-site/practice-areas/taxation"
+                element={<Taxation />}
+              />
+              <Route path="/esq-site/about-us" element={<AboutUs />} />
+              <Route path="/esq-site/contact" element={<Contact />} />
+              <Route path="/esq-site/faq" element={<FAQ />} />
+              <Route path="*" element={<NoPage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
+    </React.StrictMode>
   );
 }
 
