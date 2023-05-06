@@ -9,7 +9,7 @@ export default function Layout() {
       <header className="">
         <NavBar />
       </header>
-      <main className="bg-sky-50 flex-grow p-20">
+      <main className="bg-green-50 flex-grow p-20">
         <Outlet />
       </main>
       <footer className="">

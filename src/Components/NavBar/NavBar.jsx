@@ -45,6 +45,9 @@ export default function NavBar() {
                                 <a href="/esq-site/about-us">About Us</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
+                                <a href="/esq-site/faq">FAQs</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
                                 <a href="/esq-site/contact">Contact Us</a>
                             </li>
                         </ul>
