@@ -5,7 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 
 export default function Layout() {
   return (
-    <div className="flex flex-col h-screen text-lg">
+    <div className="flex flex-col h-screen text-lg overflow-hidden">
       <header className="">
         <NavBar />
       </header>
