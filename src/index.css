@@ -5,7 +5,7 @@
 /* default styles */
 @layer base {
   html {
-    font-family: 'Roboto-Regular';
+    font-family: "Roboto-Regular";
   }
   h1 {
     font-size: 36px;
@@ -18,8 +18,23 @@
   }
 }
 
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
 .remove-scrollbar {
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
