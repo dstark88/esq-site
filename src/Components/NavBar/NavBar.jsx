@@ -256,7 +256,7 @@ export default function NavBar() {
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
       </div>
-      <Collapse open={isNavOpen} className="overflow-y-scroll">
+      <Collapse open={isNavOpen}>
         <NavList />
       </Collapse>
     </Navbar>
