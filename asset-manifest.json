@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/esq-site/static/css/main.0a6413ff.css",
-    "main.js": "/esq-site/static/js/main.9d0ae0d9.js",
+    "main.css": "/esq-site/static/css/main.253c199b.css",
+    "main.js": "/esq-site/static/js/main.8f9f77a8.js",
     "static/js/787.f152713b.chunk.js": "/esq-site/static/js/787.f152713b.chunk.js",
-    "static/media/lawBooks.jpg": "/esq-site/static/media/lawBooks.53a6ede9382d8bea3f4b.jpg",
     "index.html": "/esq-site/index.html",
-    "main.0a6413ff.css.map": "/esq-site/static/css/main.0a6413ff.css.map",
-    "main.9d0ae0d9.js.map": "/esq-site/static/js/main.9d0ae0d9.js.map",
+    "main.253c199b.css.map": "/esq-site/static/css/main.253c199b.css.map",
+    "main.8f9f77a8.js.map": "/esq-site/static/js/main.8f9f77a8.js.map",
     "787.f152713b.chunk.js.map": "/esq-site/static/js/787.f152713b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a6413ff.css",
-    "static/js/main.9d0ae0d9.js"
+    "static/css/main.253c199b.css",
+    "static/js/main.8f9f77a8.js"
   ]
 }
