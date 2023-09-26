@@ -7,13 +7,13 @@ export default function Layout() {
   return (
     <div className="">
       <div className="flex flex-col h-screen text-lg overflow-y-scroll no-scrollbar">
-      <NavBar />
-        <main className="bg-green-50 flex-grow p-20">
+        <NavBar />
+        <main className="bg-green-50 flex-grow p-5 md:p-20">
           <Outlet />
         </main>
+        <AppStore />
+        <Footer />
       </div>
-      <AppStore />
-      <Footer />
     </div>
   );
 }

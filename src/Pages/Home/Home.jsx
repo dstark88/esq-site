@@ -12,17 +12,17 @@ export default function Home() {
     {
       title: 'TAX CONTROVERSY',
       text: 'Dealing with IRS is overwhelming. You don’t know where to start. You don’t know what your rights are. Let us be your advocate and stand up and fight for you and get you the fresh start you deserve.',
-      button: <ButtonComponent className={className} label='LEARN MORE'/>
+      button: <ButtonComponent className={className} label='LEARN MORE' />
     },
     {
       title: 'BANKRUPTCY',
       text: 'If you need immediate relief from debt collectors, we go above and beyond to ensure you are taken care of. Put your trust that we will deliver.',
-      button: <ButtonComponent className={className} label='LEARN MORE'/>
+      button: <ButtonComponent className={className} label='LEARN MORE' />
     },
     {
       title: 'REAL ESTATE',
       text: 'No matter what the case may be, if you need us, we want to be there for you. Watch as we lend a helping hand',
-      button: <ButtonComponent className={className} label='LEARN MORE'/>
+      button: <ButtonComponent className={className} label='LEARN MORE' />
     }
   ];
   const sections2 = [
@@ -55,8 +55,8 @@ export default function Home() {
       <div className="">
         <CarouselComponent />
       </div>
-      <div className="-mx-20 mt-5">
-        <div className="px-28 py-16">
+      <div className="mt-5">
+        <div className="py-16">
           <div className="text-[36px] font-bold pb-5">
             You Deserve a Fresh Start
           </div>
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <ThreeSectionText sections={sections} />
         </div>
-        <div className="relative h-[400px] w-full">
+        <div className="relative h-[400px] -m-5 md:-mx-20">
           <img
             src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
             alt="image 2"
@@ -89,16 +89,17 @@ export default function Home() {
               </Typography>
             </div>
           </div>
-          <div className="px-28 py-16 bg-green-50">
-            <div className="text-[36px] font-bold pb-5">
+        </div>
+        <div className="py-16 bg-green-50">
+          <div className="text-[36px] font-bold pb-5">
             Knowledge.
-            </div>
-            <div className="text-[16px] font-bold pb-10">
-            Stay on top of important tax related concepts.
-            </div>
-            <TwoSectionText sections={sections2} />
-            <TwoSectionText sections={sections3} />
           </div>
+          <div className="text-[16px] font-bold pb-10">
+            Stay on top of important tax related concepts.
+          </div>
+          <TwoSectionText sections={sections2} />
+          <div className="my-10" />
+          <TwoSectionText sections={sections3} />
         </div>
       </div>
     </>
